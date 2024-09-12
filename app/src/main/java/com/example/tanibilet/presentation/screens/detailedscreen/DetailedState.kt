@@ -4,6 +4,7 @@ import android.net.wifi.ScanResult.InformationElement
 import com.example.tanibilet.presentation.utils.classes.InformationAboutTour
 
 data class DetailedState(
-    val isLoading: Boolean = false,
-    val informatioAboutTour: InformationAboutTour? = null
+    val isLoading: Boolean = true,
+    val informatioAboutTour: InformationAboutTour? = null,
+    val isFavorite: Boolean = false,
 )

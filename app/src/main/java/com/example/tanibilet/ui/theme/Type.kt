@@ -14,8 +14,21 @@ val Typography = Typography(
         fontSize = 16.sp,
         lineHeight = 24.sp,
         letterSpacing = 0.5.sp
-    )
-    /* Other default text styles to override
+    ),
+    bodyMedium = TextStyle(
+        fontFamily = FontFamily.Default,
+        fontWeight = FontWeight.Normal,
+        fontSize = 10.sp,
+        lineHeight = 24.sp,
+        letterSpacing = 0.5.sp
+    ),
+    bodySmall = TextStyle(
+        fontFamily = FontFamily.Default,
+        fontWeight = FontWeight.Normal,
+        fontSize = 5.sp,
+        lineHeight = 24.sp,
+        letterSpacing = 0.5.sp
+    ),
     titleLarge = TextStyle(
         fontFamily = FontFamily.Default,
         fontWeight = FontWeight.Normal,
@@ -23,12 +36,35 @@ val Typography = Typography(
         lineHeight = 28.sp,
         letterSpacing = 0.sp
     ),
+    labelMedium = TextStyle(
+        fontFamily = FontFamily.Default,
+        fontWeight = FontWeight.Bold,
+        fontSize = 10.sp,
+        lineHeight = 10.sp,
+        letterSpacing = 0.5.sp
+    ),
     labelSmall = TextStyle(
         fontFamily = FontFamily.Default,
-        fontWeight = FontWeight.Medium,
-        fontSize = 11.sp,
-        lineHeight = 16.sp,
-        letterSpacing = 0.5.sp
+        fontWeight = FontWeight.Normal,
+        fontSize = 7.sp,
+        lineHeight = 10.sp,
+        letterSpacing = 0.3.sp
+    ),
+    displayMedium = TextStyle(
+        fontFamily = FontFamily.Default,
+        fontWeight = FontWeight.Normal,
+        fontSize = 15.sp,
+        lineHeight = 15.sp,
+        letterSpacing = 0.7.sp
     )
-    */
+/* Other default text styles to ove
+rride
+labelSmall = TextStyle(
+fontFamily = FontFamily.Default,
+fontWeight = FontWeight.Medium,
+fontSize = 11.sp,
+lineHeight = 16.sp,
+letterSpacing = 0.5.sp
+)
+*/
 )

@@ -100,6 +100,8 @@ dependencies {
     implementation ("androidx.activity:activity-compose:1.3.1")
     implementation ("androidx.compose.material:material:1.0.4")
     implementation ("androidx.compose.ui:ui:1.0.4")
+    implementation ("androidx.compose.material:material-icons-core:1.0.0")
+    implementation ("androidx.compose.material:material-icons-extended:1.0.0")
 
     implementation("io.coil-kt:coil-compose:2.1.0")
 }

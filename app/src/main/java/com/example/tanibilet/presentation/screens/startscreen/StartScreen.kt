@@ -28,7 +28,7 @@ fun StartScreen(
     val scrollState = rememberScrollState()
     val state = viewModel.state
     LazyColumn(modifier = Modifier.fillMaxSize(), userScrollEnabled = !isAtEnd){
-        items(66){
+        items(1){
             ShimmerListItem(isLoading = state.value.isLoading, contentAffterLoading = { for(tourInfo in state.value.listOffer!!){
                 TourCard(tourInfo = tourInfo, navController)
             } }, modifier = Modifier
