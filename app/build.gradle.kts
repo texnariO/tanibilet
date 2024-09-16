@@ -102,6 +102,19 @@ dependencies {
     implementation ("androidx.compose.ui:ui:1.0.4")
     implementation ("androidx.compose.material:material-icons-core:1.0.0")
     implementation ("androidx.compose.material:material-icons-extended:1.0.0")
-
     implementation("io.coil-kt:coil-compose:2.1.0")
+
+    //Room
+    val room_version = "2.6.1"
+    implementation("androidx.room:room-runtime:$room_version")
+    annotationProcessor("androidx.room:room-compiler:$room_version")
+    kapt("androidx.room:room-compiler:$room_version")
+    implementation("androidx.room:room-ktx:$room_version")
+    implementation("androidx.room:room-rxjava2:$room_version")
+    implementation("androidx.room:room-rxjava3:$room_version")
+    implementation("androidx.room:room-guava:$room_version")
+    testImplementation("androidx.room:room-testing:$room_version")
+    implementation("androidx.room:room-paging:$room_version")
+
+
 }
